@@ -30,6 +30,7 @@ public class SocketServer {
             if(message.contains("HELLO")){
                 String[] parts = message.split(" ");
                 name = parts[1];
+
                 System.out.println( "recv:" + message );
                 out.println(Server);
                 out.println("Your Message Was Received:"+ name);

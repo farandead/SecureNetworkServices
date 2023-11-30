@@ -4,11 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54bdaa11-d5f3-4600-9061-075df368e730" name="Changes" comment="" />
+    <list default="true" id="54bdaa11-d5f3-4600-9061-075df368e730" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SNS_lab_3/SocketProtocolClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SNS_lab_4/UdpClient_bare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SNS_lab_4/UdpServer_Thread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SNS_lab_4/UdpServer_bare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SNS_lab_5/ThreadSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SNS_lab_5/ThreadSampleRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SecureNetworkServives/SecureNetworkServices/SocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SecureNetworkServives/SecureNetworkServices/SocketServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecureNetworkServices/SocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecureNetworkServices/SocketServer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -35,16 +55,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Faran Zafar\Documents\GitHub\Final_Website\SecureNetworkServices\src\SNS_lab_4" />
       <recent name="C:\Users\Faran Zafar\Documents\GitHub\Final_Website\SecureNetworkServives\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SocketClient">
-    <configuration name="SocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecureNetworkServices.SocketClient" />
+  <component name="RunManager" selected="Application.UdpClient_bare">
+    <configuration name="SocketProtocolClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SNS_lab_3.SocketProtocolClient" />
       <module name="SecureNetworkServives" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SecureNetworkServices.*" />
+          <option name="PATTERN" value="SNS_lab_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,12 +73,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecureNetworkServices.SocketServer" />
+    <configuration name="SocketProtocolServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SNS_lab_3.SocketProtocolServer" />
       <module name="SecureNetworkServives" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SecureNetworkServices.*" />
+          <option name="PATTERN" value="SNS_lab_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadSampleRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SNS_lab_5.ThreadSampleRun" />
+      <module name="SecureNetworkServives" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SNS_lab_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UdpClient_bare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SNS_lab_4.UdpClient_bare" />
+      <module name="SecureNetworkServives" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SNS_lab_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UdpServer_bare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SNS_lab_4.UdpServer_bare" />
+      <module name="SecureNetworkServives" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SNS_lab_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,8 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SocketClient" />
-        <item itemvalue="Application.SocketServer" />
+        <item itemvalue="Application.UdpClient_bare" />
+        <item itemvalue="Application.UdpServer_bare" />
+        <item itemvalue="Application.ThreadSampleRun" />
+        <item itemvalue="Application.SocketProtocolClient" />
+        <item itemvalue="Application.SocketProtocolServer" />
       </list>
     </recent_temporary>
   </component>
@@ -82,5 +145,21 @@
       <updated>1696868038546</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SecureNetworkServices/SocketServer.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SNS_lab_3/SocketProtocolServer.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
